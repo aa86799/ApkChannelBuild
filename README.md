@@ -5,6 +5,7 @@ umeng-analytics-v6.0.7.jar 、utdid4all-1.0.4.jar 这两个jar文件是UMeng统�
 
 测试时，运行工程，在弹出窗口中，拖入工程下的ProguardPack.apk即可  
 如需要测试自己的apk，请配置好签名文件相关的属性，在代码中  
+如果拖入的apk已经是签名后的，那么不配置其实也没关系，代码中只是对未签名的文件才签名  
 
 关于zipalign_batch.sh(已加可执行权限)：  
 命令行：./zipalign_batch.sh  
